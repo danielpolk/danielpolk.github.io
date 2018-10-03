@@ -1,0 +1,137 @@
+/* This is for the navigation bar section. */
+
+    #toolbar {
+        max-width: 100%;
+        min-width: 600px;
+        margin: 0;
+        overflow: visible;
+        background-color: #ffffff;
+        border-color: #cccccc;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    #Your-Name {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        padding: 0px;
+        width: 160px;
+        height: 60px;
+        left: 100px;
+        margin-left: -30px;
+        float: left;
+        font-size: 12px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: auto;
+        margin: auto;
+        max-width: 940px;
+        overflow: hidden;
+    }
+
+    li {
+        float: right;
+    }
+
+    li a {
+        display: block;
+        color: #777777;
+        text-align: center;
+        padding: 21.5px 15px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        margin: 0px 2px 0px .25px;
+    }
+
+    /* This creates the hover effect. */
+    li a:hover {
+        background-color: #4aaaa5;
+    }
+
+    /* This is the vertical line between the toolbar buttons. */
+    .vl {
+        border-right: 1px solid #dddddd;
+        height: 17px;
+        float: right;
+        margin-top: 1px;
+        margin-right: -16.37px;
+    }
+
+
+
+/* This is styling for the body (background). */
+    html, body {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0px 0px 0px 0px;
+    }    
+
+    body {
+        background-image: url(/Users/DanielPolk/github/Basic-Portfolio/assets/images/funky-lines.png);
+        display: flex;
+        flex-direction: column;
+    }
+
+/* This is for styling the main content section. */
+    #content {
+        flex: 1 0 auto;
+        max-width: 896.03px;
+        min-width: 540px;
+        min-height: 320px;
+        max-height: 1700px;
+        background-color: #ffffff;
+        margin: 40px auto;
+        padding: 5px 30px;
+        border-color: #dddddd;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 5px;
+        overflow: auto;
+    }
+
+    h2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #4aaaa5;
+        border-bottom-style: solid;
+        border-bottom-color: #dddddd;
+        border-bottom-width: 2px;
+        padding: 10px;
+    }
+
+    #profile-pic {
+        height: 200px;
+        width: 200px;
+        padding: 10px 20px 10px 10px;
+        float: left;
+    }
+
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777;
+    }
+
+    #content-p {
+        min-width: 20px;
+        max-width: 900px;
+        margin: auto;
+        padding: 10px;
+    }
+
+
+/* This is for the footer. */
+    footer {
+        flex-shrink: 0;
+        margin: 0;
+        width: 100%;
+        height: 50px;
+        background-color: #666666;
+        border-top-color: #4aaaa5;
+        border-top-style: solid;
+        border-top-width: 6px; 
+    }
