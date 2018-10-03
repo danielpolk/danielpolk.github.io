@@ -2,7 +2,7 @@
 
     #toolbar {
         max-width: 100%;
-        min-width: 600px;
+        min-width: 320px;
         margin: 0;
         overflow: visible;
         background-color: #ffffff;
@@ -82,7 +82,7 @@
     #content {
         flex: 1 0 auto;
         max-width: 896.03px;
-        min-width: 540px;
+        min-width: 320px;
         min-height: 320px;
         max-height: 1700px;
         background-color: #ffffff;
@@ -135,3 +135,30 @@
         border-top-style: solid;
         border-top-width: 6px; 
     }
+
+    /*===============  Media Queries ================*/
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+      
+    }
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+       
+    }
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    
+    }
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+     
+    }
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+      
+    }
+    /* Very Large Devices, Wide Screens */
+    @media only screen and (min-width : 1300px) {
+      
+    }
+/*================================================*/
