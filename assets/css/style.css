@@ -73,7 +73,7 @@
     }    
 
     body {
-        background-image: url(/Users/DanielPolk/github/Basic-Portfolio/assets/images/funky-lines.png);
+        background-image: url(../images/funky-lines.png);
         display: flex;
         flex-direction: column;
     }
