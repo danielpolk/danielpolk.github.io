@@ -2,7 +2,6 @@
 
 #toolbar {
     max-width: 100%;
-    min-width: 320px;
     margin: 0;
     overflow: visible;
     background-color: #ffffff;
@@ -18,7 +17,7 @@
     width: 160px;
     height: 60px;
     left: 100px;
-    margin-left: -30px;
+    margin-left: -40px;
     float: left;
     font-size: 12px;
     text-align: center;
@@ -63,7 +62,6 @@ li a:hover {
 }
 
 
-
 /* This is styling for the body (background). */
 html, body {
     height: 100%;
@@ -79,11 +77,11 @@ body {
 }
 
 /* This is for styling the main content section. */
-#content {
+.container {
     flex: 1 0 auto;
+    width: 100%;
     max-width: 896.03px;
-    min-width: 320px;
-    min-height: 320px;
+    min-width: 300px;
     max-height: 1700px;
     background-color: #ffffff;
     margin: 40px auto;
@@ -95,6 +93,8 @@ body {
     overflow: auto;
 }
 
+/* Style inputs, select elements and textareas */
+
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
@@ -104,25 +104,70 @@ h2 {
     padding: 10px;
 }
 
-#profile-pic {
-    height: 200px;
-    width: 200px;
-    padding: 10px 20px 10px 10px;
-    float: left;
-}
-
-p {
+#fname #email #message {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
 }
 
-#content-p {
-    min-width: 20px;
-    max-width: 900px;
-    margin: auto;
-    padding: 10px;
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
 }
 
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-flex;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) and (min-width: 300px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin: 0;
+    }
+  }
 
 /* This is for the footer. */
 footer {
@@ -138,7 +183,7 @@ footer {
 
 /*===============  Media Queries ================*/
 /* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
+@media only screen and (min-width : 300px) {
   
 }
 /* Extra Small Devices, Phones */

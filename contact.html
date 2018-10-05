@@ -21,20 +21,41 @@
         </ul>
     </div>
 
-    <section id="content">
-        
+<div class="container">
+    <form action="action_page.php">
         <h2>Contact</h2>
-
-        <img src="./assets/images/Daniel-Polk copy.png" alt="Daniel Polk" id="profile-pic"/>
-
-        <div id="content-p">
-            <p>From launching a charter school to building a college ministry, I have spent the last 8 years of my life building projects from the ground up. I am a visionary leader focused on taking innovative ideas and making them a reality. I love to lead teams through clear communication, goals, and metrics.</p>
-            <p>Currently, I am completing my Full Stack Web Development certification through the Coding Bootcamp at The University of Texas.</p>
+        <div class="row">
+        <div class="col-25">
+            <label for="fname">Name</label>
         </div>
-    </section>
+        <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-25">
+            <label for="email">Email</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="email" name="email" placeholder="Your Email..">
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-25">
+            <label for="message">Message</label>
+        </div>
+        <div class="col-75">
+            <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+        </div>
+        <div class="row">
+        <input type="submit" value="Submit">
+        </div>
+    </form>
+    </div>
 
 
-    <footer class="footer"></footer>
+<footer class="footer"></footer>
 
     
 </body>
