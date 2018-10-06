@@ -123,7 +123,8 @@ li a:hover {
         flex: 1 0 auto;
         max-width: 896.03px;
         min-height: 320px;
-        max-height: 1700px;
+        max-height: 1500px;
+        height: auto;
         background-color: #ffffff;
         margin: 40px auto;
         padding: 5px 30px;
@@ -156,11 +157,11 @@ li a:hover {
     }
 
     #content-p {
-        min-width: 20px;
         max-width: 900px;
         margin: auto;
         padding: 10px;
     }
+
 
 
 /* This is for the footer. */
