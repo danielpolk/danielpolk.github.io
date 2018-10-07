@@ -119,7 +119,7 @@ body {
 /* This is for styling the main content section. */
 #content {
     flex: 1 0 auto;
-    width: 100%;
+    width: auto;
     max-width: 896.03px;
     min-height: 320px;
     max-height: 1700px;
