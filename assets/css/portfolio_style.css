@@ -64,6 +64,12 @@ li a:hover {
     background-color: #4aaaa5;
 }
 
+
+#spur {
+    height: 200px;
+    width: 300px;
+}
+
 /* This is the vertical line between the toolbar buttons. */
 .vl {
     border-right: 1px solid #dddddd;
