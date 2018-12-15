@@ -65,7 +65,7 @@ li a:hover {
 }
 
 
-#spur {
+#spur, #node-project {
     height: 200px;
     width: 300px;
 }
