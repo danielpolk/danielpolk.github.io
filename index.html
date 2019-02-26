@@ -1,47 +1,455 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/index_style.css">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+  <!-- <script src="main.js"></script> -->
+  <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
 </head>
 
-<body>
-    <div id="toolbar">
-    
-        <div id="Your-Name1">
-                <h1>Daniel Polk</h1>
-        </div>
+<body id="top-page">
 
-        <ul>
-            <div id="Your-Name2">
-                    <h1>Daniel Polk</h1>
-                </div>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="portfolio.html">Portfolio<div class="vl"></div></a></li>
-            <li><a href="index.html">About<div class="vl"></div></a></li>
-            
+
+  <!-- Header -->
+  <header class="wlcmMsg">
+    <div class="container">
+      <div class="main-text">
+        <div>
+          <h2 href="" class="typewrite" data-period="2000" data-type='[ "Hi, I&#8217;m Daniel.", "I&#8217;m a story teller.", "Project manager.", "Developer.", "Leader."]'>
+            <span class="wrap"></span>
+          </h1>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#top-page"><img src="assets/img/dp.png" alt="dp" id="dp"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li id="navAbout" class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li id="navResume" class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
+          </li>
+          <li id="navSkills" class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li id="navPortfolio" class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
+          <li id="navContact" class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
         </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section id="about">
+    <div class="d-flex align-items-center">
+      <img class="ml-auto mr-auto" id="aboutLogo" src="assets/img/about1.png">
+      <img id="pencil" src="assets/img/apple_pencil.svg">
     </div>
 
-    <section id="content">
-        
-        <h2>About Me</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 danielDiv">
+          <img id="daniel" src="assets/img/danielpolk.png" class="col-sm-12 col-md-5">
+          <p id="aboutText" class="secWrap1"> Hi, my name is Daniel Polk. I love building things that make people's lives better. From launching a charter school, to building a college ministry, to developing web applications, I've
+            always focused on finding creative solutions to complex problems.</p>
+          <br>
+          <p id="aboutText" class="secWrap1">
+            In completing my Full Stack Web Development Certification, through the Bootcamp at the University of Texas
+            in Austin, I'm skilled with frontend and backend development requirements. I love working with HTML5, CSS3, JavaScript, React, and jQuery to create dynamic frontend designs that are fast loading, user friendly, and mobile responsive. I also enjoy using tools like Node.js, Heroku,
+            Ajax, API’s, mySQL, MongoDB, and others to help the backend communicate with the frontend.</p>
+            <br>
+            <p id="aboutText" class="secWrap1">
+            Learning all of these languages has helped me grow in my project management skills. For the last eight years, I have managed teams of people to solve complex problems together. My hope is to continue to lead teams to build amazing things that make people's lives better.
 
-        <img src="./assets/images/Daniel-Polk copy2.jpg" alt="Daniel Polk" id="profile-pic"/>
-
-        <div id="content-p">
-            <p>From launching a charter school to building a college ministry, I have spent the last 8 years of my life building projects from the ground up. I am a visionary leader focused on taking innovative ideas and making them a reality. I love to lead teams through clear communication, goals, and metrics.</p>
-            <p>Currently, I am completing my Full Stack Web Development certification through the Coding Bootcamp at The University of Texas.</p>
+          </p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume">
+    <div class="d-flex">
+      <img class="ml-auto p-2" id="resumeLogo" src="assets/img/resume.png">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="secWrap">
+          <h4>Education</h4>
+          <hr>
+          <h5>Full Stack Web Development Certification</h5>
+          <p>University of Texas at Austin</p>
+          <p>September 2018 - April 2019</p>
+          <br>
+          <h5>Master of Arts in Theology</h5>
+          <p>Southern Seminary | Louisville, KY</p>
+          <p>September 2016 - July 2019</p>
+          <br>
+          <h5>Bachelor of Arts in Telecommunications</h5>
+          <p>Southern Seminary | Louisville, KY</p>
+          <p>August 2006 - May 2010</p>
+          <br>
+          <br>
+          <h4>Experience</h4>
+          <hr>
+          <h5>College Director</h5>
+          <p>The Austin Stone | Austin, TX | 2015 - 2019</p>
+          <p>Built college ministry for connecting students, equipping them for leadership, and mobilizing them to action.</p>
+          <ul>
+            <li>Recruited 76 leaders to facilitate 33 small groups where over 500 students were connected.</li>
+            <li>Taught at events with over 3,000 people in attendance.</li>
+            <li>Gathered over 750 students at UT for an event featuring a panel and moderated Q&A with audience.</li>
+            <li>Mobilized over 300 college students on impactful short term trips to 8 strategic cities across 4 countries.</li>
+          </ul>
+          <hr>
+          <h5>Dean of Students</h5>
+          <p>Uplift Heights Preparatory | Dallas, TX | 2013 - 2014</p>
+          <p>Developed and executed a strategic plan to build a positive school culture for students, teachers, and parents.</p>
+          <ul>
+            <li>Launched a digital reward system to help teachers monitor and reward student behavior in real time.</li>
+            <li>Enabled parents to identify behavior trends in their students through weekly detailed behavior reports.</li>
+            <li>Crafted action plans with students and parents to boost academic progress across 30 day periods.</li>
+            <li>Facilitated professional developments and weekly teacher check-ins to provide targeted feedback.</li>
+          </ul>
+          <hr>
+          <h5>Founding Teacher</h5>
+          <p>Uplift Heights Preparatory | Dallas, TX | 2010 - 2013</p>
+          <p>Opened a first year charter school as a Lead Teacher selected to coach my peers in planning, goal-setting, and assessments.</p>
+          <ul>
+            <li>Analyzed data from first year teachers to identify struggling teachers in need of coaching and feedback.</li>
+            <li>Formulated district's middle school curriculum map and assessments to be administered at 9 campuses.</li>
+            <li>Secured funding for 80 students to receive a Kindle device testing its impact on reading performance.</li>
+            <li>Facilitated professional development environments for area teachers serving over 400 teachers.</li>
+          </ul>
+          <hr>
+          <h5>Operations Coordinator</h5>
+          <p>Teach For America | Chicago, IL | 2008 - 2009</p>
+          <p>Created and refined communications systems to increase the functionality of Teach For America's Chicago Institute.</p>
+          <ul>
+            <li>Studied email marketing metrics to increase effectiveness of internal team communications.</li>
+            <li>Conceptualized and launched an interactive web site for corps members for onboard training.</li>
+            <li>Built relationships with external vendors to provide weekly services to 750 people.</li>
+            <li>Negotiated large donations from partners to create engaging city experiences for 500 staff members.</li>
+          </ul>
+          <!-- <div id="pdf" data-href> -->
+          <a href="assets/files/PolkResume.pdf" target="_blank" download>Download my full résumé here.</a>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="d-flex align-items-center">
+      <img class="ml-auto mr-auto" id="skillsLogo" src="assets/img/skills.png">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="timeline">
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="assets/img/timeline/front-end3.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>FRONTEND</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">I tend to code things from scratch, and enjoy bringing ideas to life in the
+                    browser.</p>
+                  <p class="text-muted"><strong>Languages I Use: </strong>HTML, Pug, Slim, CSS, Sass, Less</p>
+                  <p class="text-muted"><strong>Dev Tools: </strong>Atom, VsCode, Bootstrap, Bulma, Github, GitBash</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="assets/img/timeline/back-end3.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>BACKEND</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Where the magic happens.</p>
+                  <p class="text-muted"><strong>Languages I Use: </strong>NodeJS, PHP, APIs, Sysadmin, Devops, NoSQL</p>
+                  <!-- <p class="text-muted"><strong>Dev Tools: </strong>Atom, VsCode, Bootstrap, Bulma, Github, GitBash</p> -->
+                </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="assets/img/timeline/database.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>DATABASE</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Python, C#, Matlab, Heroku, Markdown, Swift</p>
+
+                </div>
+              </div>
+            </li>
+            <!-- <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="assets/img/timeline/achievments.jpeg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Achievements</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam,
+                        recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                </div>
+              </li> -->
+          </ul>
+        </div>
+      </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="d-flex align-items-center">
+      <img class="ml-auto mr-auto" id="portfolioLogo" src="assets/img/portfolioLogo.png">
+    </div>
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <div class="portfolio-link" data-toggle="modal" href="#">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <h4>ProTrip</h4>
+                <p>Road Trip App</p>
+                <a target="_blank" href="https://github.com/danielpolk/Project-1"><button type="button" class="btn btn-outline-success portfolio-button"><i
+                      class="fab fa-github"></i> Github</button></a>
+                <a target="_blank" href="http://www.protrip.info/"><button type="button" class="btn btn-outline-success portfolio-button"><i
+                  class="fas fa-share-square"></i> Live</button></a>
+              </div>
+            </div>
+            <img class="img-fluid portfolio-pic" src="assets/img/portfolio/thumb/protrip.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <div class="portfolio-link" data-toggle="modal" href="#">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <h4>Liri Bot</h4>
+                <p>A Node App</p>
+                <a target="_blank" href="https://github.com/danielpolk/liri-node-app"><button type="button" class="btn btn-outline-success portfolio-button"><i
+                      class="fab fa-github"></i> Github</button></a>
+              </div>
+            </div>
+            <img class="img-fluid portfolio-pic" src="assets/img/portfolio/thumb/node.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <div class="portfolio-link" data-toggle="modal" href="#">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <h4>Movie Quote</h4>
+                <p>GIF Finder</p>
+                <a target="_blank" href="https://github.com/danielpolk/MovieQuoteGifs"><button type="button" class="btn btn-outline-success portfolio-button"><i
+                      class="fab fa-github"></i> Github</button></a>
+                <a target="_blank" href="https://danielpolk.github.io/MovieQuoteGifs/"><button type="button" class="btn btn-outline-success portfolio-button"><i
+                  class="fas fa-share-square"></i> Live</button></a>
+              </div>
+            </div>
+            <img class="img-fluid portfolio-pic" src="assets/img/portfolio/thumb/moviequotegifs.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <div class="portfolio-link" data-toggle="modal" href="#">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <h4>Bamazon</h4>
+                <p>A Node/MySql App</p>
+                <a target="_blank" href="https://github.com/danielpolk/bamazon"><button type="button" class="btn btn-outline-success portfolio-button"><i
+                      class="fab fa-github"></i> Github</button></a>
+              </div>
+            </div>
+            <img class="img-fluid portfolio-pic" src="assets/img/portfolio/thumb/bamazon.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <div class="portfolio-link" data-toggle="modal" href="#">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <h4>Burger Order</h4>
+                <p>Express/MySql App</p>
+                <a target="_blank" href="https://github.com/danielpolk/burger"><button type="button" class="btn btn-outline-success portfolio-button"><i
+                      class="fab fa-github"></i> Github</button></a>
+                <a target="_blank" href="https://young-oasis-21652.herokuapp.com/"><button type="button" class="btn btn-outline-success portfolio-button"><i
+                  class="fas fa-share-square"></i> Live</button></a>
+              </div>
+            </div>
+            <img class="img-fluid portfolio-pic" src="assets/img/portfolio/thumb/burger.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <div class="portfolio-link" data-toggle="modal" href="#">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <h4>Minimalist</h4>
+                <p>Journaling App</p>
+                <a target="_blank" href="https://github.com/madelyneh/Project-2"><button type="button" class="btn btn-outline-success portfolio-button"><i
+                      class="fab fa-github"></i> Github</button></a>
+                <a target="_blank" href="https://minimalist19.herokuapp.com/"><button type="button" class="btn btn-outline-success portfolio-button"><i
+                  class="fas fa-share-square"></i> Live</button></a>
+              </div>
+            </div>
+            <img class="img-fluid portfolio-pic" src="assets/img/portfolio/thumb/minimalist.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
 
 
-    <footer class="sticky"></footer>
+  </section>
 
-    
+  <section id="contact">
+
+    <div class="d-flex align-items-center">
+      <img class="ml-auto mr-auto" id="contactLogo" src="assets/img/contact.png">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 danielDiv">
+          <img id="iphone" src="assets/img/iphone.png" class="col-sm-12 col-md-6">
+          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+            <div class="col-sm-12 col-md-6 col-lg-8">
+              <div class="form-group">
+                <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required"
+                  data-validation-required-message="Please enter your name.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required"
+                  data-validation-required-message="Please enter your email address.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required"
+                  data-validation-required-message="Please enter your phone number.">
+                <p class="help-block text-danger"></p>
+              </div>
+
+              <div class="form-group">
+                <textarea class="form-control" id="message" placeholder="Your Message *" required="required"
+                  data-validation-required-message="Please enter a message."></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-lg-12 text-center">
+              <div id="success"></div>
+              <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <span class="copyright">Copyright &copy; Daniel Polk 2019</span>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="https://github.com/markpython86">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/profile.php?id=100009117987560">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/mark-almanassra/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Terms of Use</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="assets/js/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="assets/js/jqBootstrapValidation.js"></script>
+  <script src="assets/js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script type='text/javascript' src='config.js'></script>
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>
