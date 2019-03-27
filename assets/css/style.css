@@ -23,7 +23,7 @@ body {
 
 }
 
-p,
+p
   {
   line-height: 1.75;
 
@@ -65,7 +65,6 @@ section h2.section-contact {
 }
 
 
-
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
@@ -82,7 +81,9 @@ section h3.section-subheading {
   font-family: 'Montserrat', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-
+#typewriter {
+  max-width: 500px;
+}
 
 @media (min-width: 768px) {
   section {
@@ -247,6 +248,9 @@ header.wlcmMsg {
 
 header.wlcmMsg .main-text {
   margin: 0 auto;
+  width: 500px;
+  height: 750px;
+  text-align: left;
   padding-top: 100px;
   padding-bottom: 100px;
   font-family: 'Montserrat', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -258,7 +262,8 @@ header.wlcmMsg .main-text {
 @media (min-width: 375px) {
   header.wlcmMsg .main-text {
     margin: 0 auto;
-    padding-top: 125px;
+    width: 350px;
+    padding-top: 200px;
     padding-bottom: 200px;
     font-size: 16px;
   }
@@ -377,7 +382,7 @@ header.wlcmMsg .main-text {
   
   header.wlcmMsg .main-text {
     margin: 0 auto;
-    padding-top: 145px;
+    padding-top: 200px;
     padding-bottom: 200px;
     font-size: 30px;
   }
