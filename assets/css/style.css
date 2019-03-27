@@ -85,6 +85,18 @@ section h3.section-subheading {
   max-width: 500px;
 }
 
+#pdf {
+  font-size: 18px;
+  font-weight: 700;
+  color: #212529;
+}
+
+#pdf:hover {
+  font-size: 18px;
+  font-weight: 700;
+  color: #00B3E3;
+}
+
 @media (min-width: 768px) {
   section {
     padding: 50px 0;
