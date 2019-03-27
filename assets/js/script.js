@@ -54,7 +54,7 @@
 
 // text effect
 var TxtType = function(el, toRotate, period) {
-    console.log("this works!!");
+    // console.log("this works!!");
     this.toRotate = toRotate;
     this.el = el;
     this.loopNum = 0;
