@@ -142,7 +142,7 @@ window.onload = function() {
 
     // Collapse Navbar
     var navbarCollapse = function() {
-        if ($("#mainNavbar").offset().top > 700) {
+        if ($("#mainNavbar").offset().top > 50) {
             $("#mainNavbar").addClass("navbar-shrink navbar-item-transparent");
         } else {
             $("#mainNavbar").removeClass("navbar-shrink navbar-item-transparent");
